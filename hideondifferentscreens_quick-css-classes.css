@@ -1,0 +1,23 @@
+/*** Phone screens ***/
+@media (min-width: 1px) and (max-width: 767px) {
+	.hide-on-phone { display: none !important; }
+	.display-on-phone { display: block !important; }
+}
+
+/*** Tablet screens ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.hide-on-table { display: none !important; }
+	.display-on-table { display: block !important; }
+}
+
+/*** Laptop/Smaller desktop screens  ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.hide-on-desktop { display: none !important; }
+	.display-on-desktop { display: block !important; }
+}
+
+/*** Large desktop screens ***/
+@media (min-width: 768px) and (max-width: 991px) {
+	.hide-on-large-desktop { display: none !important; }
+	.display-on-large-desktop { display: block !important; }
+}
